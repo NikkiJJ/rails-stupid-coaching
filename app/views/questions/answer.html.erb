@@ -1,9 +1,18 @@
-<div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
+<div class="d-flex align-items-center justify-content-left p-3" style="height: 20vh;">
+
   <h1>Stupid Coaching</h1>
 
+</div>
+<div class="d-flex align-items-center-left justify-content-left p-3">
+
   <p>Your question: <%= @users_question %></p>
+
+</div>
+<div class="d-flex align-items-center justify-content-left p-3">
   <p>Stupid coach: <%= @stupid_coach_answer %></p>
 
-  <%= link_to("Ask another question", ask_path) %>
+</div>
 
+<div class="d-flex align-items-center justify-content-left p-3">
+  <%= link_to("Ask another question", ask_path) %>
 </div>
